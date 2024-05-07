@@ -79,6 +79,19 @@
         #define WS2812_LED
         #define LED_IO 16
         //#define USE_CYGW_WIFI
+    
+    
+    #elif defined (BUILD_FEATHER)
+
+        #define BOARD_NAME "FEATHER"
+        #define SUPPORTS_COMPLEX_TRIGGER
+        #define INPUT_PIN_BASE 28
+        #define COMPLEX_TRIGGER_OUT_PIN 26
+        #define COMPLEX_TRIGGER_IN_PIN 27
+        //#define WS2812_LED // this is the Neopixel LED on pin 16 but it doesn't work
+        //#define LED_IO 16 
+        #define GPIO_LED // this is the normal LED on pin 13
+        #define LED_IO 13
 
     #endif
 

@@ -8,6 +8,7 @@
     //#define BUILD_PICO_W
     //#define BUILD_PICO_W_WIFI
     //#define BUILD_ZERO
+    //#define BUILD_FEATHER
 
 #endif
 
